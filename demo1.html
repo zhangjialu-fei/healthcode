@@ -8,9 +8,10 @@
 </head>
 <body>
     <div id="qrcode"></div>
+    <script src="qrcode.js"></script>
     <script type="text/javascript">
-        var qrcode = new QRCode("test", {
-            text: "个人信息",
+        var qrcode = new QRCode("qrcode", {
+            text: "https://www.hao123.com",
             width: 128,
             height: 128,
             colorDark : "#000000",
